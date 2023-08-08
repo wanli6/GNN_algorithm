@@ -1,17 +1,17 @@
 Inductive Representation Learning on Large Graphs (GraphSAGE)
 ============
 
+
 - Paper link: [http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf](http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf)
 - Author's code repo: [https://github.com/williamleif/graphsage-simple](https://github.com/williamleif/graphsage-simple)
 
-For advanced usages, including training with multi-gpu/multi-node, and PyTorch Lightning, etc., more examples can be found in [advanced](https://github.com/dmlc/dgl/tree/master/examples/pytorch/graphsage/advanced) and [dist](https://github.com/dmlc/dgl/tree/master/examples/pytorch/graphsage/dist) directory.
 
-Requirements
-------------
+个人对源码的理解都在代码注释中。
 
-```bash
-pip install requests torchmetrics==0.11.4 ogb
-```
+想要了解与此论文原理相关的内容
+可以[戳这里](https://editor.csdn.net/md/?articleId=132148330)去我的CSDN查看
+
+
 
 How to run
 -------
@@ -43,13 +43,6 @@ Results:
 Test Accuracy: 0.7632
 ```
 
-### PyTorch Lightning for node classification
-
-Train w/ mini-batch sampling for node classification with PyTorch Lightning on OGB-products. It requires PyTorch Lightning 2.0.1. It works with both single GPU and multiple GPUs:
-
-```bash
-python3 lightning/node_classification.py
-```
 
 ### Minibatch training for link prediction
 

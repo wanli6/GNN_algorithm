@@ -4,9 +4,7 @@ Metapath2vec
 - Paper link: [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf)
 - Author's code repo: [https://ericdongyx.github.io/metapath2vec/m2v.html](https://ericdongyx.github.io/metapath2vec/m2v.html). 
 
-Dependencies
-------------
-- PyTorch 1.0.1+
+
 
 How to run the code
 -----

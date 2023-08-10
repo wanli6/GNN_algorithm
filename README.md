@@ -17,6 +17,9 @@ metapath2vec
 [GraphSAGE](https://blog.csdn.net/qq_45678095/article/details/132148330)
 
 [GAT](https://blog.csdn.net/qq_45678095/article/details/132176644)
+
+[HAN](https://blog.csdn.net/qq_45678095/article/details/132220563)
+
 ## 环境
 
 ```
